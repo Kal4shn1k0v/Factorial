@@ -1,0 +1,12 @@
+//ITEMS
+
+item.iron_plate.name=Iron Plate
+item.copper_plate.name=Copper Plate
+
+//BLOCKS
+
+tile.structure_block.name=Structural Scaffolding
+
+//SPECIAL
+
+tile.basic_furnace.name=Basic Furnace
