@@ -3,10 +3,26 @@
 item.iron_plate.name=Iron Plate
 item.copper_plate.name=Copper Plate
 
+item.flammenwerfer.name=Flammenwerfer 35
+
 //BLOCKS
 
 tile.structure_block.name=Structural Scaffolding
 
+//FLUIDS
+
+fluid.crude_oil=Crude Oil
+
 //SPECIAL
 
 tile.basic_furnace.name=Basic Furnace
+
+//TABS
+itemGroup.militarytab=Military
+itemGroup.productiontab=Production
+itemGroup.logistictab=Logistics
+itemGroup.intermediate=Intermediate Products
+
+//OTHER
+
+container.basic_furnace=Basic Furnace
