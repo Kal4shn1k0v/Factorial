@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "burning=false,facing=north": { "model": "vfv:basic_furnace" },
+		"burning=false,facing=east": { "model": "vfv:basic_furnace", "y": 90 },
+		"burning=false,facing=south": { "model": "vfv:basic_furnace", "y": 180 },
+		"burning=false,facing=west": { "model": "vfv:basic_furnace", "y": 270 },
+		"burning=true,facing=north": { "model": "vfv:lit_basic_furnace" },
+		"burning=true,facing=east": { "model": "vfv:lit_basic_furnace", "y": 90 },
+		"burning=true,facing=south": { "model": "vfv:lit_basic_furnace", "y": 180 },
+		"burning=true,facing=west": { "model": "vfv:lit_basic_furnace", "y": 270 }
+    }
+}
