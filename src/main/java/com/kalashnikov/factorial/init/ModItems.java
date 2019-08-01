@@ -9,6 +9,7 @@ import com.kalashnikov.factorial.items.augs.AugBase;
 import com.kalashnikov.factorial.items.electronics.ElecBase;
 import com.kalashnikov.factorial.items.military.MilBase;
 import com.kalashnikov.factorial.items.parts.PartsBase;
+import com.kalashnikov.factorial.items.processed.IronStick;
 import com.kalashnikov.factorial.items.processed.ProcessedBase;
 import com.kalashnikov.factorial.items.resources.ResourceBase;
 import com.kalashnikov.factorial.items.tools.MultiToolIron;
@@ -49,7 +50,7 @@ public class ModItems {
 	public static final Item STEEL_PLATE = new ProcessedBase("steel_plate");
 	public static final Item PLASTIC_PLATE = new ProcessedBase("plastic_plate");
 	public static final Item COPPER_WIRE = new ProcessedBase("copper_wire");
-	public static final Item IRON_STICK = new ProcessedBase("iron_stick");
+	public static final Item IRON_STICK = new IronStick("iron_stick");
 	public static final Item SOLID_FUEL = new ProcessedBase("solid_fuel");
 	public static final Item ROCKET_FUEL = new ProcessedBase("rocket_fuel");
 	public static final Item NUCLEAR_FUEL = new ProcessedBase("nuclear_fuel");

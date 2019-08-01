@@ -9,6 +9,11 @@ item.flammenwerfer.name=Flammenwerfer 35
 
 tile.structure_block.name=Structural Scaffolding
 
+tile.ore_overworld_iron.name=Concentrated Iron Ore
+tile.ore_overworld_copper.name=Concentrated Copper Ore
+tile.ore_nether_iron.name=Concentrated Iron Ore
+tile.ore_nether_copper.name=Concentrated Copper Ore
+
 //FLUIDS
 
 fluid.crude_oil=Crude Oil

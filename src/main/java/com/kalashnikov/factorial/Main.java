@@ -9,6 +9,7 @@ import com.kalashnikov.factorial.tabs.ProductionTab;
 import com.kalashnikov.factorial.tabs.ToolsTab;
 import com.kalashnikov.factorial.util.Reference;
 import com.kalashnikov.factorial.util.compat.OreDictionaryCompat;
+import com.kalashnikov.factorial.util.handlers.RegistryHandler;
 import com.kalashnikov.factorial.util.handlers.RenderHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -45,6 +46,8 @@ public class Main {
 	public static void PreInit(FMLPreInitializationEvent event) {
 		ModFluids.registerFluids();
 		RenderHandler.regiterCustomMeshesAndStates();
+		
+		RegistryHandler.otherRegistries();
 	}
 	
 	@EventHandler

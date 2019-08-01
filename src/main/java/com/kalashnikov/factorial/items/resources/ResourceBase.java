@@ -11,7 +11,7 @@ public class ResourceBase extends Item implements IHasModel{
 	public ResourceBase(String name) {
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(Main.intermediatetab);
 		
 		ModItems.ITEMS.add(this);
 	}

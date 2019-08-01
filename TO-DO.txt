@@ -1,0 +1,39 @@
+//Queued
+//
+//Custom Tabs
+//Add all resources
+//Port all Factorio machine UI
+//Complete basic furnace
+//Script, model firearms
+//Conveyors
+//Electric poles
+//Create custom entity ai
+//
+//-----------------------------
+//
+//Planned
+//
+//Ore generation
+//Raiders (Equivalent to biters)
+//Add all machines
+//Survival tab and armor
+//Specialized inventory/crafting
+//Multi-block machinery
+//3D Blocks
+//Inserters
+//Lower resolution to 16x16
+//Liquid
+//RF Power
+//Rocket
+//Partially broken blocks
+//
+//------------------------------
+//
+//Probable additions
+//
+//Pollution (Highly improbable)
+//Blueprints (Highly improbable)
+//Drones (Highly improbable)
+//Research (Highly improbable)
+//Vehicles
+//Railways

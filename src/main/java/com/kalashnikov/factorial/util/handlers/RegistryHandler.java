@@ -1,9 +1,11 @@
 package com.kalashnikov.factorial.util.handlers;
 
 import com.kalashnikov.factorial.init.ModBlocks;
+import com.kalashnikov.factorial.init.ModEntities;
 import com.kalashnikov.factorial.init.ModFluids;
 import com.kalashnikov.factorial.init.ModItems;
 import com.kalashnikov.factorial.util.IHasModel;
+import com.kalashnikov.factorial.world.gen.WorldGenCustomOres;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -12,6 +14,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -43,5 +46,14 @@ public class RegistryHandler {
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	
+	public static void otherRegistries() {
+		//ORES
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		
+		//ENTITIES
+		ModEntities.registerEntities();
+		RenderHandler.registerEntityRenders();
 	}
 }
