@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "vfv:items/tools/multi_tool_iron_tool"
-    }
-}

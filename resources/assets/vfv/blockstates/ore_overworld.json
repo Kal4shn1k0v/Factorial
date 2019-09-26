@@ -1,7 +1,0 @@
-{
-    "variants":
-    {
-        "variant=iron": { "model": "vfv:ore_overworld_iron" },
-        "variant=copper": { "model": "vfv:ore_overworld_copper" }
-    }   
-}

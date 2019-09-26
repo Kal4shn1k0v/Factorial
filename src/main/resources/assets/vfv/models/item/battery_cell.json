@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "vfv:items/intermediate/battery_cell"
-    }
-}
